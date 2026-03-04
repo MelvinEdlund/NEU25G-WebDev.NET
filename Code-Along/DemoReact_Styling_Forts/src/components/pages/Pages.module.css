@@ -1,0 +1,9 @@
+
+/* Denna fil delas av flera komponenter/pages
+   Fördelen med css moduler är att det inte blir några namnkrockar/konflikter
+   Att det blir en modul styrs av namnet där skaps enligt detta sätt: xx.module.css
+*/
+
+.page{margin-left: 20px; margin-right: 40px;}
+
+.page a{text-decoration: none; color: blue;}

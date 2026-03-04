@@ -1,0 +1,22 @@
+.product-card { 
+     width: 300px;
+  }
+
+
+.product-card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+}
+
+.product-image {
+  padding: 10px;
+  cursor: pointer;
+  object-fit: contain;
+  transition: 0.2s;
+  height: 25rem; 
+  
+}
+
+.product-image:hover {
+  transform: scale(1.03);
+}
